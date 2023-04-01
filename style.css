@@ -106,6 +106,13 @@ a{text-decoration: none;}
     overflow: hidden;
 }
 
+@media screen {max-width: 414px;
+    
+}{
+    .text {visibility: collapse;}
+    .phonetext{visibility: visible;}
+}
+
 .btn button::after{
     content: '';
     position: absolute;
@@ -119,4 +126,5 @@ a{text-decoration: none;}
 }
 .btn button:hover::after{
     width: 100%;
+    
 }
